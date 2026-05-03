@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssr
+.env
+.env.local
+.env.*.local
+scripts/.baros-auth-state.json
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+.vercel
+*.tsbuildinfo
+.claude

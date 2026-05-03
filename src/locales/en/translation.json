@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "preTitle": "Hello, I'm",
+    "name": "Eden Avgi",
+    "subtitle": "Fullstack Developer · End-to-end builder",
+    "viewProjects": "View Projects",
+    "getInTouch": "Get in Touch"
+  },
+  "about": {
+    "title": "About",
+    "available": "Open to opportunities"
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "ai": "AI",
+    "devops": "DevOps"
+  },
+  "projects": {
+    "title": "Projects",
+    "filterAll": "All",
+    "filterWeb": "Web/SaaS",
+    "filterMobile": "Mobile",
+    "viewProject": "View Project"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Have a project in mind? Drop a message — I usually reply within a day.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent — talk soon.",
+    "error": "Something went wrong. Try again.",
+    "directEmail": "Email",
+    "directLinkedIn": "LinkedIn",
+    "directGitHub": "GitHub"
+  },
+  "footer": {
+    "backToTop": "Back to top",
+    "builtWith": "Built with React & ☕"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back home"
+  },
+  "projectDetail": {
+    "backToProjects": "Back to projects",
+    "demoVideo": "Demo video",
+    "flowDemo": "App flow (GIF)",
+    "screenshots": "Screenshots"
+  }
+}

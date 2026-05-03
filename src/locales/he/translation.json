@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "about": "אודות",
+    "projects": "פרויקטים",
+    "contact": "צור קשר"
+  },
+  "hero": {
+    "preTitle": "שלום, אני",
+    "name": "עדן אבגי",
+    "subtitle": "מפתח Fullstack · בונה מקצה לקצה",
+    "viewProjects": "לפרויקטים",
+    "getInTouch": "צור קשר"
+  },
+  "about": {
+    "title": "אודות",
+    "available": "פנוי להזדמנויות"
+  },
+  "skills": {
+    "title": "סטאק טכנולוגי",
+    "frontend": "פרונטאנד",
+    "backend": "באקאנד",
+    "ai": "AI",
+    "devops": "DevOps"
+  },
+  "projects": {
+    "title": "פרויקטים",
+    "filterAll": "הכל",
+    "filterWeb": "אתרים/SaaS",
+    "filterMobile": "מובייל",
+    "viewProject": "לפרויקט"
+  },
+  "contact": {
+    "title": "צור קשר",
+    "intro": "יש לך פרויקט בראש? שלח הודעה — אני בדרך כלל חוזר תוך יום.",
+    "name": "שם",
+    "email": "אימייל",
+    "message": "הודעה",
+    "send": "שלח",
+    "sending": "שולח...",
+    "success": "ההודעה נשלחה — נדבר בקרוב.",
+    "error": "משהו השתבש. נסה שוב.",
+    "directEmail": "אימייל",
+    "directLinkedIn": "LinkedIn",
+    "directGitHub": "GitHub"
+  },
+  "footer": {
+    "backToTop": "חזרה למעלה",
+    "builtWith": "נבנה עם React ו־☕"
+  },
+  "notFound": {
+    "title": "הדף לא נמצא",
+    "back": "חזרה לדף הבית"
+  },
+  "projectDetail": {
+    "backToProjects": "חזרה לפרויקטים",
+    "demoVideo": "וידאו הדגמה",
+    "flowDemo": "פלואו באפליקציה (GIF)",
+    "screenshots": "צילומי מסך"
+  }
+}
