@@ -62,8 +62,17 @@ export default function About() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
-          className="aspect-square rounded-3xl bg-gradient-to-br from-blue-200 via-purple-200 to-pink-200 dark:from-blue-900/40 dark:via-purple-900/40 dark:to-pink-900/40"
-        />
+          className="flex justify-center md:justify-end"
+        >
+          <div className="relative aspect-square w-full max-w-[320px] overflow-hidden rounded-3xl bg-gradient-to-br from-blue-200 via-purple-200 to-pink-200 shadow-xl dark:from-blue-900/40 dark:via-purple-900/40 dark:to-pink-900/40">
+            <img
+              src="/eden-portrait.png"
+              alt="Eden Avgi"
+              className="h-full w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+        </motion.div>
       </div>
     </section>
   )
