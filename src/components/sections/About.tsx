@@ -43,7 +43,7 @@ export default function About() {
                 Education
               </p>
               <p className="mt-2 text-sm font-medium">Fullstack Web<br />Coding Academy</p>
-              <p className="text-xs text-zinc-500 dark:text-zinc-400">2024 – 2025</p>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">2024 - 2025</p>
             </div>
             <div className="rounded-xl border border-zinc-200 p-4 dark:border-zinc-800">
               <p className="text-primary text-xs font-semibold tracking-wider uppercase">

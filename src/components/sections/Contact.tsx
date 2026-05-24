@@ -12,17 +12,29 @@ const directLinks = [
   { key: 'directGitHub', href: 'https://github.com/EdenIvgi', label: 'github.com/EdenIvgi' },
 ] as const
 
-/** Contact section. Submission stub until Resend / EmailJS is wired in Phase 4. */
+const CONTACT_EMAIL = 'edenavgi@gmail.com'
+
+/** Contact section. Submits by opening the visitor's mail client pre-filled to CONTACT_EMAIL. */
 export default function Contact() {
   const { t } = useTranslation()
   const [status, setStatus] = useState<Status>('idle')
 
-  const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setStatus('loading')
-    // TODO: replace with Resend / EmailJS integration in Phase 4.
-    await new Promise((r) => setTimeout(r, 800))
+    const form = e.currentTarget
+    const data = new FormData(form)
+    const name = String(data.get('name') || '').trim()
+    const email = String(data.get('email') || '').trim()
+    const message = String(data.get('message') || '').trim()
+
+    const subject = `Portfolio message from ${name || 'visitor'}`
+    const body = `From: ${name} <${email}>\n\n${message}`
+    const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+
+    window.location.href = href
     setStatus('success')
+    form.reset()
   }
 
   return (

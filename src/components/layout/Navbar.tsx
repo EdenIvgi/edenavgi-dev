@@ -36,7 +36,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link to="/" className="font-heading text-lg font-semibold tracking-tight">
-          eden avgi
+          edenavgi.dev
         </Link>
 
         <ul className="hidden items-center gap-8 text-sm md:flex">
